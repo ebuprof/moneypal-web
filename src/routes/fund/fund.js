@@ -27,7 +27,7 @@ export default class Fund extends Component {
             tx_ref: Date.now(),
             amount: amount,
             currency: 'NGN',
-            payment_options: 'card',
+            payment_options: 'card,mobilemoney,ussd',
             customer: {
             email: 'user@gmail.com',
             phonenumber: '07064586146',
